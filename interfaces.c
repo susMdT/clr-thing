@@ -90,7 +90,7 @@ HRESULT GetMemoryLoad( MyHostMemoryManager* This, OUT DWORD* pMemoryLoad, OUT SI
     *pMemoryLoad     = 30;
     *pAvailableBytes = 100 * 1024 * 1024;
     return S_OK;
-}rust clr heap encryption (https://github.com/lap1nou/CLR_Heap_
+}
 
 HRESULT RegisterMemoryNotificationCallback( MyHostMemoryManager* This, IN ICLRMemoryNotificationCallback* pCallback ) {
     // TODO
